@@ -17,8 +17,12 @@ function findShort(s) {
     words.sort((a, b) => a.length < b.length ? - 1 : 1);
 
     return words[0].length || 0;
-
 }
+
+// SHORT COOL VERSION
+// function findShort(s){
+//     return Math.min(...s.split(" ").map (s => s.length));
+// }
 
 // TEST 
 
