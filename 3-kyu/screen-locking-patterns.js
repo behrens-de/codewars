@@ -59,10 +59,3 @@ console.log(countPatternsFrom('C', 2), 5);
 console.log(countPatternsFrom('D', 3), 37);
 console.log(countPatternsFrom('E', 4), 256);
 console.log(countPatternsFrom('E', 8), 23280);
-
-
-const BOARD = 'ABC-DEF-GHI'.split`-`.map(row => [...row]);
-
-const test = 'Ajehdede'.split('').map(row =>[row]);
-
-console.log(BOARD);
